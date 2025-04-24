@@ -1,0 +1,9 @@
+imdb_crop/
+wiki_crop/
+aligned_faces/
+stargan/*
+__pycache__
+test_results
+documents/2022582_project.zip
+# Add this line to ignore the big model checkpoints
+backend/stargan/models/*
