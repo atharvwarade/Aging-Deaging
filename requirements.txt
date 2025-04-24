@@ -1,0 +1,35 @@
+# Deep Learning & Computer Vision (CUDA-enabled)
+torch>=1.8.0+cu111  # CUDA 11.1 version, adjust based on your CUDA version
+torchvision>=0.9.0+cu111
+facenet-pytorch>=2.5.2
+numpy>=1.19.5
+pandas>=1.1.5
+Pillow>=8.2.0
+scikit-image>=0.18.1
+
+# Web App Backend
+flask>=2.0.1
+flask-cors>=3.0.10
+Werkzeug>=2.0.1
+
+# File Management & Processing
+python-dotenv>=0.19.0
+requests>=2.25.1
+tqdm>=4.61.1
+matplotlib>=3.4.2
+
+# Tensorflow (for tensorboard logging, GPU-enabled)
+tensorflow-gpu>=2.5.0
+
+# Utilities
+scipy>=1.7.0
+pyyaml>=5.4.1
+urllib3>=1.26.5
+uuid>=1.30
+gdown>=4.2.0  # For downloading models from Google Drive
+
+# For model deployment
+gunicorn>=20.1.0
+
+# For testing
+pytest>=6.2.5
